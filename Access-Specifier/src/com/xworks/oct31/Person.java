@@ -6,8 +6,8 @@ public class Person {
 	public Email[]email = new Email[10];
 	public Job job=new Job(56565656,"Software Engineer",5);
 
-	public Person() {
-		//super();
+	public Person() 
+	{
 	}
 	public Person( String name) {
 		
@@ -18,12 +18,12 @@ public class Person {
 		this.email=email;
 	}
 	//
-	public void display() {
+	public void display()
+	{
 		System.out.println(this.name);
-	for (int i = 0; i < email.length; i++) {
+	for (int i = 0; i < email.length; i++)
+	{
 		Email number=this.email[i];
-		System.out.println(number);
-		
 		if(number!=null) {
 			number.display();
 		}
@@ -31,7 +31,7 @@ public class Person {
 		{
 			System.out.println("email is null or empty");
 		}
-			}
+	}
 	}
 
 }
