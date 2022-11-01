@@ -3,7 +3,7 @@ package com.xworks.oct31;
 public class Email {
 
 	
-	public int id;
+	public String id;
 	public long password;
 	public long mobilenumber;
 	public Company company=new Company("Xworkz","Ganesh");
@@ -11,7 +11,7 @@ public class Email {
 	public Email() {
 		super();
 	}
-	public Email(int id,long password,long mobilenumber) {
+	public Email(String id,long password,long mobilenumber) {
 		this.id=id;
 		this.password=password;
 		this.mobilenumber=mobilenumber;

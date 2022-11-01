@@ -24,12 +24,12 @@ public class PersonRunner {
 	    job.display();
 	     //
 	   
-	      Email email=new Email(21, 856974, 96325870);
+	      Email email=new Email("xworkz@gmail.com", 856974, 96325870);
 	      
-	      Email email1=new Email(22, 856975,96325874);
-	      Email email2=new Email(23,856976, 96387410);
-	      Email email3=new Email(24,856972, 92587410);
-	      Email email4=new Email(25,856974, 96587410);
+	      Email email1=new Email("xworkz1@gmail.com", 856975,96325874);
+	      Email email2=new Email("xworkz2@gmail.com",856976, 96387410);
+	      Email email3=new Email("xworkz3@gmail.com",856972, 92587410);
+	      Email email4=new Email("xworkz4@gmail.com",856974, 96587410);
 	     
 	    	  Email[] mails= {email,email1,email2,email3,email4};	
 	      
