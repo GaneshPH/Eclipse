@@ -1,4 +1,4 @@
-package com.xworkz.ipl.dto;
+package com.xworkz.DTO.ipl.dto;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

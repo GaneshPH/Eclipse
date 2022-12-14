@@ -1,10 +1,10 @@
-package com.xworkz.ipl.boot;
+package com.xworkz.DTO.ipl.boot;
 
 import java.time.LocalDateTime;
 
-import com.xworkz.ipl.dto.IplDTO;
-import com.xworkz.ipl.repository.IplRepository;
-import com.xworkz.ipl.repository.IplRepositoryImpl;
+import com.xworkz.DTO.ipl.dto.IplDTO;
+import com.xworkz.DTO.ipl.repository.IplRepository;
+import com.xworkz.DTO.ipl.repository.IplRepositoryImpl;
 
 public class IplRunner {
 	public static void main(String[] args) {
