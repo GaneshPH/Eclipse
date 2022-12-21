@@ -19,9 +19,12 @@ public class MetroCity {
 		metro.add(city3);
 		metro.add(city2);
 		metro.add(city1);
+
+		System.out.println(metro.size());
+		System.out.println(metro);
 		
 		for (String element : metro) {
-			System.out.println(metro);
+			System.out.println(element);
 		}
 
 		System.out.println("-------Iterator-------");

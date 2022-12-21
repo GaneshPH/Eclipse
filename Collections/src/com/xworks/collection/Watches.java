@@ -19,9 +19,12 @@ public class Watches {
 		watch.add(watch3);
 		watch.add(watch4);
 		watch.add(watch5);
+
+		System.out.println(watch.size());
+		System.out.println(watch);
 		
 		for(String element:watch) {
-			System.out.println(watch);
+			System.out.println(element);
 		}
 		
 		System.out.println("-------Iterator-------");

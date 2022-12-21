@@ -48,9 +48,12 @@ public class SoftwareCompanyNames {
 		softwareCompany.add(company3);
 		softwareCompany.add(company2);
 		softwareCompany.add("Name: "+company1);
+		
+		System.out.println(softwareCompany.size());
+		System.out.println(softwareCompany);
 
 		for (String element : softwareCompany) {
-			System.out.println(softwareCompany);
+			System.out.println(element);
 		}
 
 		System.out.println("-------Iterator-------");

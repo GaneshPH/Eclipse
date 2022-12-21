@@ -41,8 +41,11 @@ public class ShoeSize {
 		shoe.add(size14);
 		shoe.add(size15);
 
+		System.out.println(shoe.size());
+		System.out.println(shoe);
+
 		for (Double element : shoe) {
-			System.out.println(shoe);
+			System.out.println(element);
 		}
 
 		System.out.println("-------Iterator-------");

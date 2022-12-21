@@ -31,9 +31,12 @@ public class Animal {
 		animal.add(animal9);
 		animal.add(animal10);
 
+		System.out.println(animal.size());
+		System.out.println(animal);
+
 		// for each
 		for (String element : animal) {
-			System.out.println(animal);
+			System.out.println(element);
 		}
 
 		System.out.println("-------Iterator-------");
