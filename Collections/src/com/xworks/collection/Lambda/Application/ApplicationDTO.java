@@ -13,6 +13,7 @@ public class ApplicationDTO implements Serializable {
 		super();
 	}
 
+
 	public ApplicationDTO(String name, double version, boolean free, String developedBy, double price) {
 		super();
 		this.name = name;
@@ -21,6 +22,8 @@ public class ApplicationDTO implements Serializable {
 		this.developedBy = developedBy;
 		this.price = price;
 	}
+
+
 
 	@Override
 	public int hashCode() {
