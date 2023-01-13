@@ -16,13 +16,13 @@ public class TaskConfiguration {
 	}
 	@Bean
 	public String ownerNameOfNewsPaper() {
-		return "sankeshwar";
+		return "Vijay Sankeshwar";
 	}
 	
 
 	@Bean
 	public String nameOfEngine() {
-		return "FordCoyoteCrate ";
+		return "Ford 5L Coyote Crate ";
 	}
 	
 	@Bean
