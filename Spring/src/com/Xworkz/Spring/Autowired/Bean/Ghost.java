@@ -2,34 +2,33 @@ package com.Xworkz.Spring.Autowired.Bean;
 
 import java.time.LocalDate;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Ghost {
-	@Value("horror")
+	@Autowired
 	private String name;
-	@Value("movie")
+	@Autowired
 	private String area;
-	@Value("allFilmIndustry")
+	@Autowired
 	private String location;
-	@Value("filmIndustry")
+	@Autowired
 	private String nativeLocation;
-	@Value("123456")
+	@Autowired
+	@Qualifier("pin")
 	private int areaPincode;
 	private String gender;
 	private LocalDate birthdate;
 	private LocalDate deathdate;
 	private String reasonOfDeath;
 	private boolean realGhost;
-	
-	
-	public Ghost(@Qualifier("genderOfGhodt") String gender,
-			@Qualifier("birthDate")LocalDate birthdate,
-			@Qualifier("deathDate") LocalDate deathdate, 
-			@Qualifier("deathReason")String reasonOfDeath,
-			@Qualifier("realOrFake")boolean realGhost) {
+
+	public Ghost(@Qualifier("gen") String gender, @Qualifier("birthDate") LocalDate birthdate,
+			@Qualifier("deathDate") LocalDate deathdate, @Qualifier("deathReason") String reasonOfDeath,
+			@Qualifier("realOrFake") boolean realGhost) {
 		super();
 		this.gender = gender;
 		this.birthdate = birthdate;
@@ -38,7 +37,6 @@ public class Ghost {
 		this.realGhost = realGhost;
 	}
 
-
 	@Override
 	public String toString() {
 		return "Ghost [name=" + name + ", area=" + area + ", location=" + location + ", nativeLocation="
@@ -46,5 +44,4 @@ public class Ghost {
 				+ ", deathdate=" + deathdate + ", reasonOfDeath=" + reasonOfDeath + ", realGhost=" + realGhost + "]";
 	}
 
-	
 }

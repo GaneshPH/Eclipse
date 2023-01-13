@@ -51,7 +51,7 @@ public class TaskConfiguration {
 		return true;
 	}
 	
-	@Bean
+	@Bean("gen")
 	public String genderOfGhodt() {
 		return "Not Disclosed";
 	}
@@ -74,6 +74,32 @@ public class TaskConfiguration {
 	@Bean
 	public boolean  realOrFake() {
 		return false;
+	}
+	
+	@Bean
+	public String name()
+	{
+		
+		return "Horror";
+	}
+	
+	@Bean
+	public String area() {
+		return "movie";
+	}
+	
+	@Bean
+	public String location() {
+		return "allFilmIndustry";
+	}
+	@Bean
+	public String nativeLocation() {
+		return "filmIndustry";
+	}
+	
+	@Bean("pin")
+	public int areaPincode() {
+		return 123456;
 	}
 
 }
