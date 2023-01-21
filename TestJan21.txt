@@ -1,0 +1,86 @@
+<JAVA TEST>
+
+1. 						Collection (Interface)
+		
+			Set(Interface)				Queue(Interface)			List(Interface)
+			
+			*SortedSet(Interface)			*Dequeue(Interface)		*ArrayList
+			*LinkedHashset									*LinkedList
+			*Hashset										*Vector
+			*Treeset										*Stack
+
+	*Collection is a framework used to store and manipulate data
+
+		List
+		*It allows duplicate values
+		*It is index based
+		*Positional Accessed
+		*Insertion Order
+
+		Set
+		*it doesnt allows duplicate values
+		*Non Index Based
+		*Unordered
+
+
+
+2. Implementations of Map Interface
+	*HashMap
+	*TreeMap
+	*LinkedHashmap
+
+3. 		Hashset							TreeSet
+	*Hashset is implemented by HashTable 		*Treeset is implemented by Tree Structure
+	*Hashset is the execution of the 			*Tree set executes sorted sets and is backed by TreeMap.
+	 set interface and is backed by hashmap
+	*It Allows null object					*It doesnt allows null object	
+
+
+4. HashMap is Implemented by Using Map Interface.
+
+6. Using Chars() we can convert.
+
+9. Spring is a framework that power features such as Inversion of Control and dependency injection.
+
+10. Dependency Injection is a design pattern in which the object receives other objects.
+	*Through Constructor we can achieve it.
+
+11. @ComponentScan is used to find beans.
+
+13. StringBuffer							StringBuider
+	*It is Synchronized					*Not Synchronized
+	*Thread is safe						*Not safe
+	*It is faster						*It is slower
+
+
+16.
+	public class Jan21{
+	public static void main(String[] args){
+
+	Map<String, Integer> map=new TreeMap<String, Integer>();
+	map.put("India", 91);
+	map.put("Srilanka", 92);
+	map.put("Nepal", 93);
+	map.put("Pakistan", 94);
+	map.put("USA", 95);
+
+	Set<Entry<String,Integer>> entry = new map.entrySet();
+	entry.foreach(ele->System.out.println(ele));
+
+	map.forEach((key,value)->{if(value==91)
+		{System.out.println(key);}});
+	
+	Iterator<Entry<String,Integer>> itr = enter.iterator();
+	while(itr.hasNext()){
+	Entry<String,Integer> ent=itr.next();
+	if(ent.getValue()==92){
+	itr.remove();
+	for(Entry<String, Integer> entry2:entry){
+	System.out.println(entry2);
+	}
+	}
+	}
+
+	}
+	
+	}
