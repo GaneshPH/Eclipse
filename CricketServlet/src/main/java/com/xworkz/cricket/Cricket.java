@@ -39,6 +39,9 @@ public class Cricket extends HttpServlet{
 		String noOfCenturies = req.getParameter("noOfCenturies");
 		String batsmanOfDecade = req.getParameter("batsmanOfDecade");
 		String bowlerOfDecade = req.getParameter("bowlerOfDecade");
+		String mostWicketsInInnings = req.getParameter("mostWicketsInInnings");
+		String mostRunsInInnings = req.getParameter("mostRunsInInnings");
+		String bestAllrounder = req.getParameter("bestAllrounder");
 		String GOAT = req.getParameter("GOAT");
 		
 		
@@ -59,6 +62,9 @@ public class Cricket extends HttpServlet{
 		System.out.println(noOfCenturies);
 		System.out.println(batsmanOfDecade);
 		System.out.println(bowlerOfDecade);
+		System.out.println(mostWicketsInInnings);
+		System.out.println(mostRunsInInnings);
+		System.out.println(bestAllrounder);
 		System.out.println(GOAT);
 		
 		
