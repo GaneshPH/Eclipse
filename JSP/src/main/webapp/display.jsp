@@ -7,7 +7,7 @@
 <title>Jan30 Task</title>
 </head>
 <body>
-	<span style="color: Blue;"> These is details about ${firstName}
+	<span style="color: #d60606;"> These is details about ${firstName}
 		${lastName} who is a ${gender}.${firstName} is my favorite cause of
 		${reason}.${firstName} stays in ${address}. </span>
 </body>
