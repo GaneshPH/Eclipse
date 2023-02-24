@@ -20,17 +20,19 @@
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#"
 				class="d-inline-block align-text-top"><img
-				src="https://dynamic.brandcrowd.com/asset/logo/788a014d-fa14-4e9a-bac2-61bc2a4ade40/logo-search-grid-1x?logoTemplateVersion=1&v=638067535570070000"
+				src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Egyptair.a330-200.su-gce.arp.jpg/1200px-Egyptair.a330-200.su-gce.arp.jpg"
 				alt="" height="48" width="80"> </a>
 			<ul>
-				<li style="display: inline-block; padding: 20px;"><a
-					href="flight" class="col-lg-2 col-sm-2" class="btn btn-primary">Flight</a>
+				<li style="display: inline-block; padding: 20px;">
+				<a href="reg" class="col-lg-2 col-sm-2" class="btn btn-primary">Flight</a>
+								<a href="Search.jsp" class="col-lg-2 col-sm-2" class="btn btn-primary">Search</a>
 				<li style="display: inline-block;">
 			</ul>
+			
 		</div>
 	</nav>
 
-	<h1>welcom to flight</h1>
+	<h1>welcome to flight</h1>
 
 </body>
 </html>

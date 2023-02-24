@@ -23,14 +23,14 @@
 				src="https://dynamic.brandcrowd.com/asset/logo/788a014d-fa14-4e9a-bac2-61bc2a4ade40/logo-search-grid-1x?logoTemplateVersion=1&v=638067535570070000"
 				alt="" height="48" width="80"> </a>
 			<ul>
-				<li style="display: inline-block; padding: 20px;"><a
-					href="flight" class="col-lg-2 col-sm-2" class="btn btn-primary">Flight</a>
+				<li style="display: inline-block; padding: 20px;">
+				<a href="flight" class="col-lg-2 col-sm-2" class="btn btn-primary">Flight</a>
 				<li style="display: inline-block;">
 			</ul>
 		</div>
 	</nav>
 
-	<h1>welcom to flight</h1>
+	<h1>welcome</h1>
 
 </body>
 </html>
