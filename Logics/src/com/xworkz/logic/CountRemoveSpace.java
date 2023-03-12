@@ -2,21 +2,20 @@ package com.xworkz.logic;
 
 public class CountRemoveSpace {
 	public static void main(String[] args) {
-		
-		 String str="Hands on learning happens here Xworkz";
-		 String s="";
-		 int count=0;
-		 for(char ch:str.toCharArray()) {
-			 if(ch==' ') {
-				 count++; // or count=count+1
-			 }else {
-				 s=s+ch;
-			 }
-			
-		 }
-		 System.out.println("white spaces:"+count);
-		 System.out.println("String without white spaces:"+s);
-		 
+
+		int n=32;
+		if(n%2!=0) {
+			System.out.println("geyg");
+		}
+		if(n%2==0 && n<=5 &&n>=2) {
+			System.out.println("Jamn");
+		}
+		if(n%2==0 && n<=20 &&n>=6) {
+			System.out.println("Hzhkih");
+		}
+		if(n%2==0 &&n>=20) {
+			System.out.println("jjsgdjf");
+		}
 	}
 
 }
